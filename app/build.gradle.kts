@@ -41,3 +41,6 @@ tasks.named<Test>("test") {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
 }
+task.named<JavaExe>("run"){
+	standardInput = System.'in'
+}

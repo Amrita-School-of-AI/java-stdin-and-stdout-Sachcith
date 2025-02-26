@@ -1,7 +1,6 @@
 package org.example;
 
-import java.util.*;
-
+import java.util.Scanner;
 public class App {
 
     public static void main(String[] args) {
@@ -9,9 +8,7 @@ public class App {
         int a = scan.nextInt();
         int b = scan.nextInt();
         int c = scan.nextInt();
-
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
+	    scan.close();
+        System.out.print(a+"\n"+b+"\n"+c+"\n");
     }
 }
