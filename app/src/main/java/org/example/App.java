@@ -9,6 +9,6 @@ public class App {
         int b = scan.nextInt();
         int c = scan.nextInt();
 	    scan.close();
-        System.out.print(a+"\n"+b+"\n"+c+"\n");
+        System.out.printf(a+"\n"+b+"\n"+c+"\n");
     }
 }
